@@ -121,7 +121,7 @@ The Cab System web application is built using the following technologies:
   - Express: A web application framework for Node.js.
   - MongoDB: A NoSQL database for data storage.
  
-<img width="617" alt="Screenshot 2024-04-03 at 6 14 39 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/6ea02abb-e0dd-4ac9-afee-928630f95900">
+
 
 
 <img width="1440" alt="Screenshot 2024-04-03 at 6 15 35 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/492ac50d-3de1-4f8a-b0b7-d34390fb3a07">
