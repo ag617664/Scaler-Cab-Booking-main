@@ -8,12 +8,7 @@ let PORT = process.env.PORT || 9095;
 require('dotenv').config();
 
 const app = express();
-app.use(cors(
-  {
-    origin:["http://localhost:3000"],
-    credentials:true,
-  }
-));
+app.use(cors());
 app.use(express.json());
 
 const cabRoutes = require('./routes/cabRoutes');
