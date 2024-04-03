@@ -1,33 +1,41 @@
 
 # Cab System Web Application
 
-The Cab System is a web application that facilitates the booking of cabs and provides users with the shortest time and estimated cost for their trips. This README provides an overview of the project, its features, and how to set it up for use.
+The Cab System is a web application designed to streamline cab booking processes, offering users optimal routes and estimated costs for their trips. This README offers a comprehensive outline of the project, its functionalities, and instructions for setup and usage.
 
 ## 1. Description
 
-The Cab System is a web application that enables users to book cabs and calculates the shortest possible time and estimated cost for their trips.
+The Cab System is a web-based platform allowing users to reserve cabs while computing the shortest possible duration and estimated expenses for their journeys.
 
 ## 2. Features
 
 ### Cab Booking
 
-- Users can book cabs by providing their email, pickup location, and drop location.
+- Users have the option to reserve cabs by furnishing their email addresses, along with specifying both the pickup and drop-off locations.
 
 ### Shortest Route Calculation
 
-- The system calculates the shortest possible time from pickup location to drop location, considering multiple routes.
+- The system computes the most efficient travel time from the pickup point to the destination, taking into account various available routes.
 
 ### Cab Management
 
-- The system manages a fleet of 5 cabs with different pricing, ensuring that no two cabs have overlapping start and end times.
+- The system oversees a fleet of five cabs, each with distinct pricing structures, ensuring that there are no overlaps in the start and end times of two cabs.
 
 ### Estimated Cost
 
-- Users receive an estimated cost for their cab rides based on the selected cab and the time taken to reach the drop location.
+- Users are provided with an estimated cost for their cab rides, determined by the selected cab and the duration taken to reach the drop-off location.
 
 ### Cab Confirmation Email
 
--  Users receive email notifications at the time of booking with all the details.
+-  Users are promptly notified via email at the time of booking, receiving comprehensive details regarding their reservation.
+
+### Edit Bookings
+
+-Users have the ability to modify their bookings by adjusting the pickup and drop-off locations, as well as selecting a different cab if needed.
+
+### Cancel Booking
+
+-Users can cancel their bookings, which transitions their booking status to archived.
 
 ### Booking Tracking
 
@@ -53,12 +61,12 @@ To set up and run the Cab System web application, follow these steps:
 
 1. Clone the project from the repository:
    ```
-   git clone https://github.com/varisha-025/Scaler_Cab_System.git
+   git clone https://github.com/ag617664/Scaler-Cab-Booking-main
    ```
 
 2. Navigate to the project directory:
    ```
-   cd Scaler_Cab_System
+   cd SCALER CAB BOOKING
    ```
 
 ## Server
@@ -77,7 +85,7 @@ To set up and run the Cab System web application, follow these steps:
    ```
    npm run dev
    ```
-4. The server should now be running on your local server `http://localhost:3001`.
+4. The server should now be running on your local server `http://localhost:9095`.
 
 ## Client
 
@@ -112,5 +120,14 @@ The Cab System web application is built using the following technologies:
   - Node.js: A JavaScript runtime for the server.
   - Express: A web application framework for Node.js.
   - MongoDB: A NoSQL database for data storage.
+ 
+<img width="617" alt="Screenshot 2024-04-03 at 6 14 39 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/6ea02abb-e0dd-4ac9-afee-928630f95900">
 
-**Happy Cab Booking!**
+
+<img width="1440" alt="Screenshot 2024-04-03 at 6 15 35 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/492ac50d-3de1-4f8a-b0b7-d34390fb3a07">
+
+<img width="1440" alt="Screenshot 2024-04-03 at 6 19 27 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/b8b0ec28-4d39-401b-a2ab-049654993a22">
+
+<img width="1440" alt="Screenshot 2024-04-03 at 6 19 34 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/41ebdee2-7694-42fd-91cd-056121dd2c53">
+<img width="1440" alt="Screenshot 2024-04-03 at 6 19 40 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/b9cc9a80-77a4-4a55-bf51-76938b329c0e">
+<img width="1440" alt="Screenshot 2024-04-03 at 6 19 55 PM" src="https://github.com/ag617664/Scaler-Cab-Booking-main/assets/95614809/f4c2e458-7824-4419-8a45-35214082b4ef">
